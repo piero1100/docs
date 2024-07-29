@@ -9,7 +9,9 @@
 | JavaScript/TypeScript | `javascript-typescript` | `javascript` or `typescript` |
 | Python | `python` |
 | Ruby | `ruby`
+{%- ifversion codeql-swift-beta %}
 | Swift | `swift`
+{%- endif %}
 
 {% note %}
 
@@ -24,10 +26,12 @@
 | C/C++ | `cpp`
 | C# | `csharp`
 | Go | `go`
-| Java/Kotlin | `java`
+| Java{% ifversion codeql-kotlin-beta %}/Kotlin{% endif %} | `java`
 | JavaScript/TypeScript | `javascript`
 | Python | `python`
 | Ruby | `ruby`
+{%- ifversion codeql-swift-beta %}
 | Swift | `swift`
+{%- endif %}
 
 {% endif %}
